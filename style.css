@@ -1,0 +1,58 @@
+/* Apply a dark background to the body */
+body {
+    background-color: #161313;
+    color: rgb(120, 180, 102);
+}
+
+/* Center the calculator on the page */
+.container {
+    margin-top: 50px;
+}
+
+/* Style the card */
+.card {
+    background-color: #c0b0b0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Style the heading */
+h1 {
+    color: #11100a;
+    font-weight: bold;
+}
+
+/* Input fields */
+.input-group-text {
+    background-color: #527ea1;
+    color: black;
+    font-weight: bold;
+}
+
+/* Form inputs */
+.form-control {
+    background-color: hsl(77, 12%, 89%);
+    color: rgb(37, 120, 131);
+    border: 1px solid #00b7ff;
+}
+
+/* Style the button */
+.btn-dark {
+    background-color: #38a134;
+    color: black;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+/* Button hover effect */
+.btn-dark:hover {
+    background-color: #7ca9d3;
+}
+
+/* Result section */
+#result h5 {
+    color: #942626;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
